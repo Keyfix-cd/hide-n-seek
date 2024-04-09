@@ -1,0 +1,4 @@
+accessWidener v1 named
+
+accessible method net/minecraft/entity/FallingBlockEntity writeCustomDataToNbt (Lnet/minecraft/nbt/NbtCompound;)V
+accessible method net/minecraft/entity/FallingBlockEntity readCustomDataFromNbt (Lnet/minecraft/nbt/NbtCompound;)V

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hide-and-seek:item/block_disguise_remote"
+  }
+}

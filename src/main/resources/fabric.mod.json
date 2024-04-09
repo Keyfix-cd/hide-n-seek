@@ -1,0 +1,30 @@
+{
+	"accessWidener": "hide-and-seek.accesswidener",
+	"schemaVersion": 1,
+	"id": "hide-and-seek",
+	"version": "${version}",
+	"name": "hide-and-seek",
+	"description": "A mod that adds a hide-and-seek feature to the game",
+	"authors": [
+		"GeGe"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "me.gege.HideAndSeek"
+		]
+	},
+	"mixins": [
+		"hide-and-seek.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.25",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "me.gege.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinClientPlayerEntity",
+    "MixinDisplayBlockEntity",
+    "MixinEntity",
+    "MixinPlayerEntity",
+    "MixinPlayerEntityClip"
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
